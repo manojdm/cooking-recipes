@@ -1,0 +1,35 @@
+/* Form */
+#login {
+	width: fit-content;
+	margin: auto;
+}
+
+#login .title {
+	font-size: 1.3rem;
+}
+
+#login label {
+	display: block;
+	margin-top: 15px;
+}
+
+#login input {
+	padding: 8px 45px 8px 10px;
+	background-color: gainsboro;
+	border: none;
+	width: 250px;
+}
+
+#login input:focus {
+	outline: none;
+}
+
+#login button {
+	margin-top: 10px;
+	border: none;
+	background: black;
+	color: white;
+	padding: 5px 15px;
+	font-size: 1rem;
+	border-radius: 2px;
+}

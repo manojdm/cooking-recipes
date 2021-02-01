@@ -1,0 +1,125 @@
+/* posts Page */
+#posts-page {
+	max-width: 800px;
+	margin: auto;
+}
+
+#posts-page .go-back {
+	padding: 15px 20px;
+}
+
+#posts-page .go-back a {
+	text-decoration: none;
+	color: black;
+}
+
+#posts-page .posts-main {
+	display: grid;
+	grid-template-columns: 1.1fr 1fr;
+	grid-gap: 30px;
+}
+
+#posts-page .posts-main .image-container img {
+	width: 100%;
+}
+
+#posts-page .content .title {
+	font-size: 1.5rem;
+	margin: 0;
+	padding: 0;
+	line-height: 1rem;
+	width: fit-content;
+}
+
+#posts-page .title-down {
+	display: flex;
+	justify-content: space-between;
+}
+
+#posts-page hr {
+	width: 320px;
+	padding: 0;
+	margin: 5px;
+}
+
+#posts-page .author,
+#posts-page .date {
+	font-size: 0.9rem;
+	padding-left: 2px;
+	color: gray;
+	opacity: 0.8;
+	margin-top: 13px;
+}
+
+#posts-page i {
+	color: gray;
+}
+
+#posts-page .number {
+	font-size: 2rem;
+	font-weight: bold;
+	padding: 20px;
+}
+
+#posts-page .procedure hr {
+	width: 100%;
+}
+
+#posts-page .addComments .add-comment-p {
+	font-size: 1.2rem;
+	font-weight: 500;
+	margin: 10px 0;
+}
+
+#posts-page .addComments label {
+	display: block;
+	font-size: 1.1rem;
+	margin: 10px 0px 3px;
+}
+
+#posts-page .addComments input {
+	width: 220px;
+	padding: 5px 5px;
+	border: none;
+	background-color: gainsboro;
+}
+
+#posts-page .addComments input:focus {
+	outline: none;
+}
+
+#posts-page .addComments textarea {
+	display: block;
+	width: 220px;
+	height: 50px;
+	padding: 5px 5px;
+	border: none;
+	background-color: gainsboro;
+	margin-bottom: 15px;
+}
+
+#posts-page .addComments textarea:focus {
+	outline: none;
+}
+
+#posts-page .comment-container .comment-name {
+	font-size: 0.8rem;
+	margin: 0;
+	padding-left: 10px;
+}
+
+#posts-page .comment-container .comment-comment {
+	font-size: 1rem;
+	margin: 0;
+	padding-left: 10px;
+	margin: 5px 0px;
+}
+
+#posts-page .addComments .btn-comment {
+	border: none;
+	padding: 5px 15px;
+	font-size: 1rem;
+	background: black;
+	color: white;
+	margin-bottom: 10px;
+}
